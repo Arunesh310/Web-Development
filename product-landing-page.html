@@ -1,0 +1,152 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="header">
+    <img src="logo.png" alt="Logo" id="header-img">
+    <nav id="nav-bar">
+      <a class="nav-link" href="#features">Features</a>
+      <a class="nav-link" href="#pricing">Pricing</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="features">
+    <h2>Features</h2>
+    <!-- Feature content here -->
+  </section>
+
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <!-- Pricing content here -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+      <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+      <input type="submit" id="submit" value="Submit">
+    </form>
+  </section>
+
+  <footer>
+    <!-- Footer content here -->
+  </footer>
+
+  <video id="video" src="product_video.mp4" controls></video>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+#header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+#header-img {
+  width: 100px;
+  height: 100px;
+}
+
+#nav-bar {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Section Styles */
+section {
+  padding: 50px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#email {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#submit {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  #nav-bar {
+    display: none;
+  }
+
+  /* Add responsive styles as needed */
+}
+
+/* Flexbox Styles */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+** end of undefined **
