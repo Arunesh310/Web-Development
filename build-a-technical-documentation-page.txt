@@ -1,0 +1,166 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    <header>Documentation</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+    <a class="nav-link" href="#Variables">Variables</a>
+    <a class="nav-link" href="#Functions">Functions</a>
+    <a class="nav-link" href="#Loops">Loops</a>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>Paragraph 1</p>
+      <p>Paragraph 2</p>
+      <p>Paragraph 3</p>
+      <p>Paragraph 4</p>
+      <p>Paragraph 5</p>
+      <p>Paragraph 6</p>
+      <code>Code 1</code>
+      <code>Code 2</code>
+      <code>Code 3</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ul>
+    </section>
+    <section class="main-section" id="JavaScript_and_Java">
+      <header>JavaScript and Java</header>
+      <p>Paragraph 1</p>
+      <p>Paragraph 2</p>
+      <p>Paragraph 3</p>
+      <p>Paragraph 4</p>
+      <p>Paragraph 5</p>
+      <code>Code 1</code>
+      <code>Code 2</code>
+      <code>Code 3</code>
+      <code>Code 4</code>
+      <code>Code 5</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+        <li>List item 5</li>
+      </ul>
+    </section>
+    <section class="main-section" id="Variables">
+      <header>Variables</header>
+      <p>Paragraph 1</p>
+      <p>Paragraph 2</p>
+      <p>Paragraph 3</p>
+      <code>Code 1</code>
+      <code>Code 2</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ul>
+    </section>
+    <section class="main-section" id="Functions">
+      <header>Functions</header>
+      <p>Paragraph 1</p>
+      <p>Paragraph 2</p>
+      <p>Paragraph 3</p>
+      <p>Paragraph 4</p>
+      <p>Paragraph 5</p>
+      <code>Code 1</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ul>
+    </section>
+    <section class="main-section" id="Loops">
+      <header>Loops</header>
+      <p>Paragraph 1</p>
+      <p>Paragraph 2</p>
+      <code>Code 1</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
+
+
+
+    
+
+
+** end of undefined **
+
+** start of undefined **
+
+/* Basic styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  padding: 20px;
+}
+
+#navbar header {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  display: block;
+  color: #fff;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+#main-doc {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.main-section {
+  margin-bottom: 30px;
+}
+
+.main-section header {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 10px;
+  }
+
+  #main-doc {
+    margin-left: 0;
+  }
+}
+
+
+
+** end of undefined **
+
